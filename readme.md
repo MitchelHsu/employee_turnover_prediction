@@ -26,9 +26,9 @@ pip install -r requirements.txt
 ```
 
 ## Data description
-train.csv: yearly data (14,392 records in total)
-season.csv: quarterly data (72,684 records in total)
-test.csv: data of 2018 (3,739 records in total)
-submission.csv: Sample of upload file format，the columns include:
-PerNo: personnel number
-PerStatus:  target of prediction，0 : retained；1: resigned
+* train.csv: yearly data (14,392 records in total)
+* season.csv: quarterly data (72,684 records in total)
+* test.csv: data of 2018 (3,739 records in total)
+* submission.csv: Sample of upload file format，the columns include: 
+* PerNo: personnel number
+* PerStatus:  target of prediction，0 : retained；1: resigned
