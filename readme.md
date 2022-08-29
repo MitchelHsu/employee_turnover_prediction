@@ -1,11 +1,8 @@
-# Introduction: The Best Stock Visualizing and Predicting Site
-Stock is trend for investment and financial management. People can make a great amount of earnings from it.
-Simultaneously they can also loose a great amount of money from it. Wherefore, a great stock visualize tool
-can boost trading efficiency. Moreover, it would be best if there's an add-on predicting tool to assist investors.
-This post details how to build a stock visualizing and predicting site with twelvedata and streamlit.
+# Employee Turnover Prediction and Analysis
 
 ## Contents
 * How to Start (environment setup)
+* Data description
 
 ## How to Start (environment setup)
 To create and activate a conda environment (Python 3.7.13):
@@ -27,3 +24,11 @@ To install the project's dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+## Data description
+train.csv: yearly data (14,392 records in total)
+season.csv: quarterly data (72,684 records in total)
+test.csv: data of 2018 (3,739 records in total)
+submission.csv: Sample of upload file format，the columns include:
+PerNo: personnel number
+PerStatus:  target of prediction，0 : retained；1: resigned
